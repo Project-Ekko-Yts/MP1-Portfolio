@@ -1,0 +1,314 @@
+:root {
+  --background-color: #83b4ff;
+  --shadow-color: #5a72a0;
+  --border-color: #1a2130;
+  --font-color: white;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  background: rgb(20, 36, 0);
+  background: linear-gradient(
+    223deg,
+    rgba(20, 36, 0, 1) 0%,
+    rgba(20, 9, 121, 1) 76%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+hr {
+  margin: 20px 15% 20px 15%;
+  border: var(--background-color) 2px solid;
+  box-shadow: var(--shadow-color) 0 0 5px;
+}
+.nav-link {
+  border: blue 2px solid;
+  border-radius: 10px 20px;
+  margin-left: 10px;
+  padding: 10px;
+  color: var(--font-color);
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  background: #61b9db;
+  color: black;
+  transition: 0.5s;
+  box-shadow: blue 0 0 5px;
+}
+
+.navbar-logo {
+  font-size: 80px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+/* ABOUT ME STYLE */
+
+.Aboutme {
+  display: flex;
+  margin: 10% 15% 10% 15%;
+  justify-content: space-between;
+  padding-top: 10vh;
+}
+
+.Aboutme-text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  padding-bottom: 50px;
+  color: var(--font-color);
+  font-size: 30px;
+  margin-left: 20px;
+  padding-top: 30px;
+}
+
+.btn-md-3 {
+  color: rgb(255, 217, 0);
+  font-size: 30px;
+  font-weight: 30%;
+  text-shadow: var(--background-color) 0 0 10px;
+  border-radius: 13px;
+  text-align: center;
+}
+
+.btn-md-3:hover {
+  background: #61b9db;
+  color: yellow;
+  box-shadow: white 0 0 5px;
+}
+
+.Aboutme-text h2,
+h4 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+h4 {
+  padding-top: 30px;
+  color: var(--font-color);
+  font-size: 30px;
+}
+
+.aboutme-picture {
+  width: 300px;
+  height: 200px;
+  border-radius: 40px;
+}
+
+.aboutme-picture img {
+  border-radius: 20px;
+  width: 300px;
+  box-shadow: rgba(0, 255, 34, 0.87) 0 0 10px;
+  margin-left: 20px;
+}
+
+h1 {
+  text-align: center;
+  justify-content: center;
+  color: #39ff14;
+  font-size: 70px;
+  font-weight: 600;
+  text-shadow: var(--background-color) 0 0 10px;
+  margin: auto;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  text-decoration: none;
+  margin-top: 100px;
+}
+
+.card-title {
+  color: var(--font-color);
+  text-align: center;
+  padding: 20px 15px 15px 15px;
+  justify-content: center;
+}
+
+.card-title h2 {
+  text-align: center;
+}
+
+.card-body h2 {
+  text-align: center;
+  justify-content: center;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  box-shadow: transparent 0 0 0px;
+}
+
+.card {
+  background: none;
+  border: none;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  justify-content: center;
+  text-align: center;
+}
+
+.card-project:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  box-shadow: transparent 0 0 20px;
+}
+
+.card-project .btn:hover {
+  background-color: #39ff14;
+  color: #1a2130;
+}
+
+.card-project .btn {
+  color: var(--font-color);
+  border: none;
+  background-color: transparent;
+  margin-left: 3rem;
+  margin-right: -1rem;
+}
+
+.card-project {
+  background: none;
+  border: none;
+  justify-content: center;
+  margin: auto;
+  width: 150%;
+  border-radius: 40px;
+  margin-left: 2%;
+}
+
+.card-img-top {
+  border-radius: 40px;
+  width: 150%;
+}
+
+h5 {
+  text-align: center;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 80px;
+  text-shadow: var(--background-color) 0 0 10px;
+  margin-left: 80px;
+  color: yellow;
+}
+
+.project {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+}
+
+.Contact-text {
+  color: var(--font-color);
+  padding: 20px;
+  margin-right: 50px;
+}
+
+.Resume {
+  display: flex;
+  padding-top: 100px;
+  margin: 2% 15% 0 15%;
+  color: var(--font-color);
+  text-align: center;
+  flex-direction: column;
+}
+
+.Resume-text {
+  text-align: center;
+}
+
+.col-md-12 {
+  color: var(--font-color);
+}
+
+.card-body {
+  object-fit: cover;
+  align-items: center;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+}
+.form-control {
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.column {
+  justify-content: center;
+  margin: 10%;
+}
+
+.mt-3 {
+  margin-right: ;
+}
+
+.container-contact {
+  text-align: justify;
+}
+
+#contacts .container {
+  margin-top: 110px;
+  margin-bottom: 70px;
+  background-image: url(../images/nubelson-fernandes-UcYBL5V0xWQ-unsplash.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  border-radius: 20px;
+  /* opacity: 80%; */
+}
+
+.contacts {
+  justify-content: center;
+  margin: auto;
+}
+
+.form-group {
+  width: 70%;
+  margin: auto;
+}
+
+.input-group-text input {
+  width: 100%;
+}
+
+.text-center-1 {
+  text-align: center;
+  background-color: var(--background-color);
+  width: 20%;
+  align-items: center;
+  margin: auto;
+  border-radius: 13px;
+  color: var(--font-color);
+}
+
+.text-center-1:hover {
+  background-color: gray;
+  transform: scale(1.1);
+  text-shadow: var(--background-color) 0 0 10px;
+}
+
+.Footer {
+  padding-bottom: 15vh;
+}
